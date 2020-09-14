@@ -12,13 +12,6 @@ Created on 4 Sept. 2019
 
 import pytest
 
-import tarfile
-import os
-import errno
-import shutil
-from astropy.coordinates import SkyCoord
-from astropy.utils.diff import report_diff_values
-
 from ..core import XMMNewtonClass
 from ..tests.dummy_tap_handler import DummyXMMNewtonTapHandler
 
